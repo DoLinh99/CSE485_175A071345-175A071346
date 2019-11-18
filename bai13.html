@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body>
+        <h2 style="color: #0080FF">Đăng ký du lịch</h2>
+        <form style=" color: #7BA3D8">
+            <table  border="1" cellpadding="0" cellspacing="0" width="50%" style="background-color:lavenderblush">
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input type="text" name="ht" size="30%"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" name="dc" size="28%"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="text" name="dt" size="25%"></td>
+                </tr>
+                <tr>
+                    <td>Khách Việt Nam</td>
+                    <td><input type="checkbox" name="kvn"></td>
+                </tr>
+                <tr>
+                    <td>Chọn tour</td>
+                    <td>
+                        <select>
+                            <optgroup label="Miền Bắc">
+                                <option value="Hà Nội - Hạ Long -Sapa">Hà Nội - Hạ Long -Sapa</option>
+                                <option value="Hà Nội - Chùa Hương - Ninh Bình">Hà Nội - Chùa Hương - Ninh Bình</option>
+                                <option value="Hà Nội - Cát Bà - Tuần Châu">Hà Nội - Cát Bà - Tuần Châu</option>
+                            </optgroup>
+                            <optgroup label="Miền Trung">
+                                <option value="Huế - Bạch Mã - Đà Nẵng">Huế - Bạch Mã - Đà Nẵng</option>
+                                <option value="Nha Trang - Đà Lạt">Nha Trang - Đà Lạt</option>
+                                <option value="Buôn Mê Thuột - Gia Lai - Kontum">Buôn Mê Thuột - Gia Lai - Kontum</option>
+                            </optgroup>
+                            <optgroup label="Miền Nam">
+                                <option value="TP.HCM - Cần Thơ - Cà Mau">TP.HCM - Cần Thơ - Cà Mau</option>
+                                <option value="TP.HCM - Mỹ Tho">TP.HCM - Mỹ Tho</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phương tiện</td>
+                    <td>
+                        <input type="radio" name="pt" value="Máy bay">Máy bay
+                        <input type="radio" name="pt" value="Xe ô tô">Xe ô tô
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="350px" height="55px">
+                        <fieldset style="color: #D8BE7B">
+                            <legend>Số lượng đoàn khách</legend>
+                                Người lớn <input type="text" name="nl" size="5%">
+                                Trẻ em <input type="text" name="te" size="5%">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ghi chú thêm</td>
+                    <td width="300px"><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button type="button" onclick="dy()">Đồng ý</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <script>
+                            function dy() {document.getElementById("vb").innerHTML = "Bạn đã đăng ký thành công!!!"}
+                        </script>
+                        <p id="vb" style="color: #F8AE69" align="center"></p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
