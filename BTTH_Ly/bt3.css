@@ -1,0 +1,19 @@
+body{
+  background-image: url("https://toihoctiengtrung.com/wp-content/uploads/2019/03/ky-quan-the-gioi.jpg"); 
+  background-color: #a06d21; 
+  height: 700px; 
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat; 
+  /* background-size: cover;  */
+}
+
+h1{
+    text-align: center; color: #FFCC00;
+}
+p{
+  width: 70%;
+  margin-left: 15%;
+  color: #fff;
+  font-size: 30px;
+}

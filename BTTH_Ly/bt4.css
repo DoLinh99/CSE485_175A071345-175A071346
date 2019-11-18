@@ -1,0 +1,17 @@
+body{
+    background-image: url(anhnen.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+h2{
+    width: 70%;
+    margin-left: 15%;
+    background-color: #339999;
+    color: #ffffff;
+}
+p{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 25px;
+    color: #008888;
+}
