@@ -285,9 +285,8 @@ img{
 	padding-top: 20px;
 	padding-right: 0px;
 }
-.hoi{
-	width: 75%;
-	text-align: center;
+.container-fluid row{
+	height: 80%;
 }
 
 

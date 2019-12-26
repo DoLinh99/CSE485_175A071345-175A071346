@@ -24,7 +24,7 @@
 						</div>
 						<div id="menu1">
 							<ul>    
-								<li><a href="diem.php">Tra cứu điểm</a></li>
+								<li><a href="tracuudiem.php">Tra cứu điểm</a></li>
 							</ul>
 						</div>
 					</div>
