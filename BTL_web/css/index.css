@@ -1,0 +1,218 @@
+body{
+    margin: auto 0px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0em;
+    padding: 0px 8em;
+
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    width: 100%;
+    background-image: url(http://www.tlu.edu.vn/dhtl/images/front/bgr-slider.jpg);
+}
+
+.desktop ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 0em;
+    font-size: 120%;
+}
+
+.desktop ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+
+.main{
+    width: 100%;
+    padding: 0px 8em;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2em 0em;
+}
+
+.img{
+    width: 35%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.title{
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 800px){
+    .header, .main{
+        padding: 0em 0.5em;
+    }
+    .logo{
+        width: 60%;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: inline-block;
+    }
+
+    #icon{
+        position: relative;
+    }
+
+    .mobile ul{
+        list-style-type: none;
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1000;
+    }
+
+    .mobile ul li{
+        border-bottom: 1px solid #ccc;
+        padding: 0.5em;
+    }
+
+    .mobile ul li a{
+        color: #fff;
+    }
+
+    .item{
+        display: inline-block;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .title h4{
+        font-size: 100%;
+    }
+    .login  {
+    color:blue;
+    padding: 5px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    background-color:darkgray;
+    }
+   
+}
+#cont{
+    background-color: #ffffff;
+    margin-top: 3%;
+    display:flex ;
+}
+.tinchinh{
+    float: left;
+    display: block;
+    padding: 6px 0 0 6px
+}
+.row{
+    width: 73%;
+   display: none;
+}
+.primary
+{
+    overflow:hidden;
+	display:block;
+	float:left;
+	width:100%;
+    height:390px
+}
+.tinchinh{float:left;display:block;padding:6px 0 0 6px}
+.tinchinh h1{font-size:15px!important;font-weight:700!important;padding:3px 0}
+.tinchinh h1,#tinchinh h1 a:link,#tinchinh h1 a:visited{margin-top:7px;margin-bottom:3px}
+.tinchinh p{color:#444}
+.cont-left1{
+    width: 57%;
+}
+.them{
+    margin-left: 25%;
+}
+.them1{
+    margin-left: 60%;
+}
+.cont-left2{
+   
+    margin-right: 0;
+}
+.row1{
+    margin-right: 2%;
+    width: 27%;
+}
+
+footer{
+    height: 400px;
+    background-color: rgb(14, 14, 148);
+}
+ .footer-top h3 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 2;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: 'RobotoCondensedRegular', sans-serif;
+}
+.footer-top{
+
+ height: 15%;
+ background-color: rgb(45, 122, 238);
+}
+.ft-left{
+    width: 35%;
+    margin-top: 2%;
+    /* margin-left: ; */
+   
+}
+.ft-left .a3{
+    margin-left: 30%;
+}
+.footer-down{
+    width:100%;
+    height:80%;
+    display: flex;
+    font-size: 14px;
+   
+}
+.footer-down a{
+    color: white;
+} 
+.ft-left2{
+    margin-top: 2%;
+}
