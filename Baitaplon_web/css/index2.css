@@ -1,0 +1,81 @@
+#header{
+    background-color: #56a4fe;
+    
+    width: 100%;
+}
+.title{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.title a {
+    margin-top: 10px
+}
+a{
+    color: white;
+
+}
+
+a:hover{
+    color: #f74012
+}
+.ad_logout{
+    margin-left: 1000px;
+    margin-top: -33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #eee;
+}
+.content-left{
+    background-color: #17569e;
+    width: 23%;
+    height:650px;
+}
+
+ul li{
+   list-style: none;
+}
+.dropdown-item:active {
+    
+    text-decoration: none;
+    background-color: #4caf50;
+}
+.row {
+    
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.nav-item{
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-item1{
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-item1 i{
+   
+    font-size: 18px;
+    margin-left: 15px;
+}
+.nav-item1 i:hover{
+    color: #eb300f
+}
+.nav-item1 a:hover{
+    color: #4caf50
+}
+.dropdown-menu a:hover{
+    color: #4caf50
+}
+/*noi dung*/
+.content-right{
+    width: 75%;
+ }
+ .content-right h1{
+     color: #4caf50;
+     margin-left: 30%;
+     margin-top: 10%;
+ }
