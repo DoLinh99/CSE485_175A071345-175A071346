@@ -35,7 +35,7 @@ ob_start();
             </table>
 		
 			<input type="submit" name="login" id="login" value="Đăng nhập">
-			<div class="register"><b><a href="register.php"> Đăng ký</a></b></div>
+			<div class="register"><b><a href="formregister.php">Đăng ký</a></b></div>
             <a href="">Quên mật khẩu?</a>
         </form>
         </div>
