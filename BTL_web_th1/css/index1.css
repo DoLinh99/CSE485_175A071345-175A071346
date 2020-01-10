@@ -1,0 +1,337 @@
+body{
+    margin: auto 0px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0em;
+    padding: 0px 120px;
+
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    width: 100%;
+    background-image: url(http://www.tlu.edu.vn/dhtl/images/front/bgr-slider.jpg);
+    border: 2px ;
+  border-radius: 5px;
+}
+
+.desktop ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 0em;
+    font-size: 120%;
+}
+
+.desktop ul li a{
+    color: #fff;
+    font-weight: bold;
+  
+}
+
+.main{
+    width: 100%;
+    padding: 0px 110px;
+    border: 2px ;
+  border-radius: 5px;
+
+   
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2em 0em;
+}
+
+.img{
+    width: 35%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.title{
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 800px){
+    .header, .main{
+        padding: 0em 0.5em;
+    }
+    .logo{
+        width: 60%;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: inline-block;
+    }
+
+    #icon{
+        position: relative;
+    }
+
+    .mobile ul{
+        list-style-type: none;
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1000;
+    }
+
+    .mobile ul li{
+        border-bottom: 1px solid #ccc;
+        padding: 0.5em;
+    }
+
+    .mobile ul li a{
+        color: #fff;
+    }
+
+    .item{
+        display: inline-block;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .title h4{
+        font-size: 100%;
+    }
+    .login  {
+    color:rgb(240, 15, 15);
+    padding: 5px;
+    border: 1px solid rgb(238, 242, 248);
+    }
+   
+}
+.login{
+    color:rgb(226, 220, 220);
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    background-color:rgb(245, 176, 97);
+}
+#cont{
+    background-color: #ffffff;
+    margin-top: 3%;
+    display: flex ;
+}
+.tinchinh{
+    float: left;
+    display: flex;
+    padding: 6px 0 0 6px
+}
+.row{
+    width: 73%;
+    display: flex;
+}
+
+.row4{
+    display: flex;
+}
+.row6{
+    display: flex;
+}
+.row8{
+    display: flex;
+}
+.primary
+{
+    overflow:hidden;
+	display:block;
+	float:left;
+	width:100%;
+    height:390px
+}
+.tinchinh{float:left;display:block;padding:6px 0 0 6px}
+.tinchinh h1{font-size:15px!important;font-weight:700!important;padding:3px 0}
+.tinchinh h1,#tinchinh h1 a:link,#tinchinh h1 a:visited{margin-top:7px;margin-bottom:3px}
+.tinchinh p{color:#444}
+.cont-left1{
+    width: 57%;
+}
+.them{
+    margin-left: 25%;
+}
+.them1{
+    margin-left: 60%;
+}
+.cont-left2{
+   
+    margin-right: 0;
+}
+.row1{
+    margin-right: 2%;
+    width: 27%;
+}
+.cont1-left{
+    padding-right: 4%;
+}
+.cont-butt{
+    padding-right: 4%;
+}
+footer{
+    height: 400px;
+    background-color: rgb(14, 14, 148);
+}
+ .footer-top h3 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 2;
+    margin-top: 2%;
+    margin-left: 30%;
+    font-family: 'RobotoCondensedRegular', sans-serif;
+}
+.footer-top{
+
+ height: 15%;
+ background-color: rgb(45, 122, 238);
+}
+.ft-left{
+    width: 30%;
+    margin-top: 5%;
+    /* margin-left: ; */
+   
+}
+.ft-left .a3{
+    margin-left: 30%;
+}
+.footer-down{
+    width:100%;
+    height:80%;
+    display: flex;
+    font-size: 14px;
+   
+}
+.footer-down a{
+    color: rgb(245, 245, 245);
+} 
+.ft-left2{
+    margin-top: 2%;
+    margin-left: 15%;
+    color:white;
+}
+/* register */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;} 
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+ button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+} 
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+} 
+h1{
+    text-align: center;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+} 
